@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kyurosh Bazar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" th:href="@{/style.css}">
+
+    </head>
+    <body>
+        <header>
+            <div>
+                Logo
+            </div>
+        </header>
+        <main>
+            <h1 class="title">Welcome to my Ecommerce page</h1>
+            <h3 class="sub-heading">Our Products</h3>
+            <section class="products">
+                <div class="card">
+                    <img th:src="@{/imgs/jeans.jpg}" alt="Denim Jeans" style="width:30%">
+                    <h1>Tailored Jeans</h1>
+                    <p class="price">$19.99</p>
+                    <p>Our Very Own Jeans..</p>
+                    <p><button>View More</button></p>
+                </div>
+                <div class="card">
+                    <img th:src="@{/imgs/jacket.jpg}" alt="Denim Jacket" style="width:30%">
+                    <h1>Jacket</h1>
+                    <p class="price">$19.99</p>
+                    <p>Our Good Quality Jackets..</p>
+                    <p><button>View More</button></p>
+                </div>
+                <div class="card">
+                    <img th:src="@{/imgs/shorts.jpg}" alt="Shorts" style="width:30%">
+                    <h1>Shorts</h1>
+                    <p class="price">$19.99</p>
+                    <p>Comfy Shorts..</p>
+                    <p><button>View More</button></p>
+                </div>
+                <div class="card">
+                    <img th:src="@{/imgs/hat.jpg}" alt="Hat" style="width:30%">
+                    <h1>Hat</h1>
+                    <p class="price">$19.99</p>
+                    <p>Classy Hats..</p>
+                    <p><button>View More</button></p>
+                </div>
+                <div class="card">
+                    <img th:src="@{/imgs/sunglass.jpg}" alt="Sunglasses" style="width:30%">
+                    <h1>Sunglasses</h1>
+                    <p class="price">$19.99</p>
+                    <p>Good Looking Sunglasses..</p>
+                    <p><button>View More</button></p>
+                </div>
+            </section>
+           
+        </main>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
